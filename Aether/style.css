@@ -6,9 +6,39 @@ body {
     height: auto;
     min-height: 100%;
     margin: 0;
-    background-image: url('https://www.pcgamesn.com/wp-content/uploads/2021/06/Windows-11-Bloom-Screensaver-Light.jpg');
+    background-image: url('../assets/back.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Roboto', sans-serif;
+}
+
+.social-link {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.social-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.social-link:hover .desc {
+    display: block;
+}
+
+.social-link span {
+    color: #fff;
+    background-color: #015ef7;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+    display: none;
 }
