@@ -577,3 +577,28 @@
         display: none;
     }
 }
+
+/* iPhone Pro Max */
+
+@media screen and (max-width: 320px) {
+
+    /*------------------------------Nyx------------------------------*/
+    .nyx-sidebar {
+        width: 70px;
+    }
+
+    .nyx-sidebar .search span {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nyx-sidebar .main .main-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nyx-sidebar .profile img {
+        width: 45px;
+        height: 45px
+    }
+}
