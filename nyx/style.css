@@ -6,10 +6,7 @@ body {
     height: auto;
     min-height: 100%;
     margin: 0;
-    background-image: url('../assets/back.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #e3e9f7;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,7 +21,7 @@ body {
 }
 
 .social-link a {
-    color: #fff;
+    color: #11111d;
     text-decoration: none;
     font-size: 40px;
 }
@@ -34,8 +31,8 @@ body {
 }
 
 .social-link span {
-    color: #fff;
-    background-color: #015ef7;
+    color: #e3e9f7;
+    background-color: #1f1e30;
     padding: 8px 10px;
     border-radius: 20px;
     font-size: 14px;

@@ -256,6 +256,162 @@
     color: #5b667c;
 }
 
+/*------------------------------Nyx------------------------------*/
+
+.nyx-sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #11111d;
+    overflow-y: auto;
+}
+
+.nyx-sidebar .header {
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nyx-sidebar .header a {
+    color: #fffff6;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nyx-sidebar .header img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.nyx-sidebar .header .burger {
+    border: none;
+    color: #fffff6;
+    background-color: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nyx-sidebar .search {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nyx-sidebar .search span {
+    width: auto;
+    height: 51px;
+    padding-left: 15px;
+    border-radius: 10px 0px 0px 10px;
+    color: #fffff6;
+    background-color: #1d1b31;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nyx-sidebar .search .search-input {
+    width: 200px;
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    color: #fffff6;
+    background-color: #1d1b31;
+    outline: none;
+}
+
+.nyx-sidebar .main {
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nyx-sidebar .main #active {
+    color: #11111d;
+    background-color: #fffff6;
+}
+
+.nyx-sidebar .main .main-button {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    padding: 18px 4px 18px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fffff6;
+    background-color: #11111d;
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.nyx-sidebar .main i {
+    margin-right: 20px;
+}
+
+.nyx-sidebar .profile {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1b31;
+    color: #fffff6;
+    position: absolute;
+    bottom: 0;
+}
+
+.nyx-sidebar .profile img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.nyx-sidebar .profile .infos {
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nyx-sidebar .profile .infos h4 {
+    margin: 2px 0px;
+}
+
+.nyx-sidebar .profile .infos p {
+    margin: 2px 0px;
+    font-size: 14px;
+}
+
+.nyx-sidebar .profile .logout {
+    border: none;
+    background-color: transparent;
+    color: #fffff6;
+    font-size: 26px;
+}
+
 
 /* iPhone Pro Max */
 
@@ -357,6 +513,67 @@
     }
 
     .aether-sidebar .profile .name {
+        display: none;
+    }
+
+    /*------------------------------Nyx------------------------------*/
+
+    .nyx-sidebar {
+        width: 100px;
+    }
+
+    .nyx-sidebar .header {
+        justify-content: center;
+    }
+
+    .nyx-sidebar .header a {
+        font-size: 0px;
+    }
+
+    .nyx-sidebar .header .burger {
+        display: none;
+    }
+
+    .nyx-sidebar .search span {
+        width: 70px;
+        height: 70px;
+        padding: 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nyx-sidebar .search .search-input {
+        display: none;
+    }
+
+    .nyx-sidebar .main {
+        align-items: center;
+    }
+
+    .nyx-sidebar .main .main-button {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+        padding: 0px;
+        font-size: 0px;
+        text-align: center;
+    }
+
+    .nyx-sidebar .main i {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .nyx-sidebar .profile img {
+        margin: 0;
+    }
+
+    .nyx-sidebar .profile .infos {
+        display: none;
+    }
+
+    .nyx-sidebar .profile .logout {
         display: none;
     }
 }
